@@ -3,10 +3,10 @@
 ## 1. BatchNorm2d
 [原理解释](https://blog.csdn.net/weixin_44278406/article/details/105554268)
 [基础 | batchnorm原理及代码详解](https://blog.csdn.net/qq_25737169/article/details/79048516)
-==注意==：BatchNorma2d() 在激活函数之前
+注意：BatchNorma2d() 在激活函数之前
 
 _BatchNorm什么时候**bias**设置为True？什么时候设置为False?_
- bn后有relu，bn的bias为False； bn后无relu，bn的bias为True
+bn后有relu，bn的bias为False； bn后无relu，bn的bias为True
 
 _relu的**inplace**什么时候设置为True，什么时候为False？_
 [https://blog.csdn.net/qiumokucao/article/details/121115800](https://blog.csdn.net/qiumokucao/article/details/121115800)
@@ -341,14 +341,9 @@ HTML语言：如 td、tl 、th等等，
 # 附录三、数据集：
 [https://blog.csdn.net/weixin_45127897/article/details/124034805](https://blog.csdn.net/weixin_45127897/article/details/124034805)
 ## 总结与补充
-常见语义分割数据集总结![](https://img-blog.csdnimg.cn/8cfa727d09084098b98dd0cab661b3de.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA6Z2i5ZCs5LiA6Z2i6Zeu,size_20,color_FFFFFF,t_70,g_se,x_16)大规模图像分割数据集还包括 Semantic Boundaries Dataset(SBD)、 Microsoft Common Objects in COntext (COCO)、 KITTI、Adobe’s Portrait Segmentation、Youtube-Objects、Materials IN Context (MINC)、Densely-Annotated VIdeo Segmentation (DAVIS)、Stanford background、SiftFlow 以及 3D 数据集, 包括 ShapeNet Part、Stanford 2D-3D-S、A Benchmark for 3D Mesh Segmentation、Sydney Urban Objects Dataset、Large-Scale Point Cloud Classification Benchmark 等.   
- # 附录四、发展历史——建议的学习顺序
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3e378c2fcc1e4622b56d3affde96ce7e.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA6Z2i5ZCs5LiA6Z2i6Zeu,size_20,color_FFFFFF,t_70,g_se,x_16)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a5ec2c5d3ea44a06842cccd99d5e41c8.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA6Z2i5ZCs5LiA6Z2i6Zeu,size_20,color_FFFFFF,t_70,g_se,x_16)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fed22c540368421c86e7252558225916.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA6Z2i5ZCs5LiA6Z2i6Zeu,size_17,color_FFFFFF,t_70,g_se,x_16)
-
-
+常见语义分割数据集总结![](https://img-blog.csdnimg.cn/8cfa727d09084098b98dd0cab661b3de.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA6Z2i5ZCs5LiA6Z2i6Zeu,size_20,color_FFFFFF,t_70,g_se,x_16)
+大规模图像分割数据集还包括 Semantic Boundaries Dataset(SBD)、 Microsoft Common Objects in COntext (COCO)、 KITTI、Adobe’s Portrait Segmentation、Youtube-Objects、Materials IN Context (MINC)、Densely-Annotated VIdeo Segmentation (DAVIS)、Stanford background、SiftFlow 以及 3D 数据集, 包括 ShapeNet Part、Stanford 2D-3D-S、A Benchmark for 3D Mesh Segmentation、Sydney Urban Objects Dataset、Large-Scale Point Cloud Classification Benchmark 等.   
+ 
 ### 参考文献
 [1]全卷积神经网络图像语义分割方法综述
 [2]基于全卷积网络的图像语义分割方法综述
